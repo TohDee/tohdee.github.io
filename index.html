@@ -76,8 +76,8 @@
       font-weight:    bold;
     }
     @font-face {
-      font-family: "Estrangelo Edessa";
-      src: url(./_Fonts++/EstrangeloEdessa.ttf) format('truetype');
+      font-family: "Estrangelo Antioch";
+      src: url(./_Fonts++/EstrangeloAntioch.ttf) format('truetype');
     }
     @font-face {
       font-family: "Gentium";
@@ -154,8 +154,23 @@
     p.TableMid {
       margin-top:     0.0pt;
       text-indent:    0cm;
-      line-height:    15.0pt;
       text-align:     center;
+      vertical-align: bottom;
+    }
+    p.ContHead {
+      margin-top:     3.0pt;
+      margin-bottom:  0.0pt;
+      line-height:    15.0pt;
+      text-indent:    0cm;
+      text-align:     left;
+      vertical-align: bottom;
+    }
+    p.ContList {
+      margin-top:     0.0pt;
+      margin-bottom:  0.0pt;
+      line-height:    13.0pt;
+      text-indent:    0cm;
+      text-align:     left;
       vertical-align: bottom;
     }
 
@@ -163,6 +178,12 @@
       text-decoration:none;
     }
     span.PlainTxt {
+      font-family:    'Century Schoolbook L';
+      font-size:      11.0pt;
+      font-weight:    normal;
+      text-decoration:none;
+    }
+    .ContentsSubList {
       font-family:    'Century Schoolbook L';
       font-size:      11.0pt;
       font-weight:    normal;
@@ -193,8 +214,7 @@
       font-size:      11.0pt;
       font-weight:    bold;
       color:          black;
-    }
- 
+    } 
     span.TheoBold {
       font-family:    'Century Schoolbook L';
       font-size:      11.0pt;
@@ -235,6 +255,11 @@
     span.MAMentry {
       font-family:    'SBL Hebrew';
       font-size:      14.0pt;
+      font-weight:    normal;
+    }
+    span.MAMsmall {
+      font-family:    'SBL Hebrew';
+      font-size:      12.0pt;
       font-weight:    normal;
     }
     span.WLCentry {
@@ -335,13 +360,13 @@
       font-style:     normal;
     }
     span.SYRentry {
-      font-family:    'Estrangelo Edessa';
+      font-family:    'Estrangelo Antioch';
       font-size:      15pt;
       font-weight:    normal;
       font-style:     normal;
     }
     span.SYRsmall {
-      font-family:    'Estrangelo Edessa';
+      font-family:    'Estrangelo Antioch';
       font-size:      13pt;
       font-weight:    normal;
       font-style:     normal;
@@ -431,6 +456,72 @@
           </p>
         </td>
       </tr>
+      <tr>
+        <td class="TabEntry" colspan="2">
+          <p style='margin-top:12.0pt; margin-right:0cm; margin-bottom:0cm; margin-left:0cm; margin-bottom:0cm;
+             text-align:center;  line-height:20.0pt; direction:ltr; unicode-bidi:embed'>
+            <span style='font-size:16.0pt;font-family:"Century Schoolbook L",serif;font-variant:small-caps'>
+              <b><u>Content of Tables</u></b></span>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td class="TabEntry" style="vertical-align:top; padding-left:9em">
+          <ol>
+            <li><p class="ContHead"><a href="#Table1"><span class="TheoBold">The Hebrew Bible</span>
+              <span class="MAMentry">(&#1514;&#1464;&#1468;&#1504;&#1464;&#1524;&#1498;&#1456;)</span></a></p>
+              <ol class="ContentsSubList" style="list-style-type:lower-alpha">
+                <li><p class="ContList"><a href="#AnTor"><span class="PlainTxt">The Torah</span>
+                  <span class="MAMsmall">(&#1514;&#1468;&#1493;&#1465;&#1512;&#1464;&#1492;)</span></a></p></li>
+                <li><p class="ContList"><a href="#BnPro"><span class="PlainTxt">The Prophets</span>
+                  <span class="MAMsmall">(&#1504;&#1456;&#1489;&#1460;&#1497;&#1488;&#1460;&#1497;&#1501;)</span></a></p></li>
+                <li><p class="ContList"><a href="#CnWri"><span class="PlainTxt">The Writings</span>
+                  <span class="MAMsmall">(&#1499;&#1456;&#1468;&#1514;&#1493;&#1468;&#1489;&#1460;&#1497;&#1501;)</span></a></p></li>
+              </ol>
+            <li><p class="ContHead"><a href="#Table2"><span class="TheoBold">The New Testament</span></a></p>
+              <ol class="ContentsSubList" style="list-style-type:lower-alpha">
+                <li><p class="ContList"><span class="PlainTxt"><a href="#MnSyn">Synoptic Gospels and Acts</a></span></p></li>
+                <li><p class="ContList"><span class="PlainTxt"><a href="#NnPau">The Letters of St Paul</a></span></p></li>
+                <li><p class="ContList"><span class="PlainTxt"><a href="#OnEpi">Other/Catholic Letters</a></span></p></li>
+                <li><p class="ContList"><span class="PlainTxt"><a href="#PnJhn">The Johannine Works</a></span></p></li>
+              </ol>
+            <li><p class="ContHead"><a href="#Table3"><span class="TheoBold">OT Deuterocanon/Metacanon</span></a></p>
+              <ol class="ContentsSubList" style="list-style-type:lower-alpha">
+                <li><p class="ContList"><span class="PlainTxt"><a href="#DnApo">Wisdom/Poetry Apocrypha</a></span></p></li>
+                <li><p class="ContList"><span class="PlainTxt"><a href="#EnMac">The Books of the Maccabees</a></span></p></li>
+                <li><p class="ContList"><span class="PlainTxt"><a href="#FnBar">The &lsquo;Baruch&rsquo; Books</a></span></p></li>
+                <li><p class="ContList"><span class="PlainTxt"><a href="#GnEsd">The &lsquo;Esdras&rsquo; Books</a></span></p></li>
+                <li><p class="ContList"><span class="PlainTxt"><a href="#HnPpe">Ethiopic &lsquo;Broad Canon&rsquo;</a></span></p></li>
+              </ol>
+            </li>
+          </ol>
+        </td>
+        <td class="TabEntry" style="vertical-align:top">
+          <ol start="4">
+            <li><p class="ContHead"><a href="#Table4"><span class="TheoBold">Non-Canonical Early Christian Writings</span></a></p>
+              <ol class="ContentsSubList" style="list-style-type:lower-alpha">
+                <li><p class="ContList"><span class="PlainTxt"><a href="#QnFth">Apostolic Fathers</a></span></p></li>
+                <li><p class="ContList"><span class="PlainTxt"><a href="#RnEbc">Ethiopic &lsquo;Broad Canon&rsquo;</a></span></p></li>
+                <li><p class="ContList"><span class="PlainTxt"><a href="#SnRaa">Apocryphal Revelations and Acts</a></span></p></li>
+                <li><p class="ContList"><span class="PlainTxt"><a href="#TnCml">Coptic/Gnostic Metalogos</a></span></p></li>
+                <li><p class="ContList"><span class="PlainTxt" style="color:gray">Infancy/Sacred Family Gospels &amp;c.</span></p></li>
+                <li><p class="ContList"><span class="PlainTxt"><a href="#WnDub">Texts of Dubious Provenance</a></span></p></li>
+                <li><p class="ContList" style="margin-top:3.5pt"><span class="PlainTxt" style="color:gray">Unclassified/Provisional
+                  <br />&nbsp;</span></p></li>
+              </ol>
+            </li>
+            <li><p class="ContHead"><a href="#Table5"><span class="TheoBold">&lsquo;Old Testament&rsquo; Pseudepigrapha</span></a></p>
+              <ol class="ContentsSubList" style="list-style-type:lower-alpha">
+                <li><p class="ContList"><span class="PlainTxt"><a href="#InApe">Testaments</a></span></p></li>
+                <li><p class="ContList"><span class="PlainTxt"><a href="#JnBpe">Apocalypses &amp; Prophecies</a></span></p></li>
+                <li><p class="ContList"><span class="PlainTxt"><a href="#KnCpe">Histories &amp; Narratives</a></span></p></li>
+                <li><p class="ContList"><span class="PlainTxt" style="color:gray">Miscellaneous Excerpts</span></p></li>
+                <li><p class="ContList" style="margin-top:3.5pt"><span class="PlainTxt"><a href="#XnUnc">Unclassified/Provisional</a></span></p></li>
+              </ol>
+            </li>
+          </ol>
+        </td>
+      </tr>
     </table>
 
   </div>
@@ -462,7 +553,7 @@
           <p style='margin-top:12.0pt; margin-right:0cm; margin-bottom:0cm; margin-left:14.2pt; margin-bottom:.0001pt;
              text-align:left;  line-height:25.0pt; direction:ltr; unicode-bidi:embed'>
             <span style='font-size:23.0pt;font-family:"Century Schoolbook L",serif;font-variant:small-caps'>
-              <b>The Hebrew Bible</b></span>
+              <b><a id="Table1">The Hebrew Bible</a></b></span>
           </p>
         </td>
       </tr>
@@ -554,6 +645,14 @@
             <a href="Ynnn-Src/Y501-UXL.pdf" class="HeadLink" title="Notes on the Unicode/XML Leningrad Codex Texts in this Collection">
               <span class="HeadLite">UXLC</span>
             </a>
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan=8>
+          <p class="TableGap">
+            <span class="SubHeads"><a id="AnTor">A. The Torah</a></span>
           </p>
         </td>
       </tr>
@@ -849,6 +948,14 @@
             <a href="Annn-Tor/A305-Dty.docx" title="The Fifth Book of Moses, commonly called Deuteronomy (WEB)">
               <span class="WEBentry">Deuteronomy</span>
             </a>
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan=8>
+          <p class="TableGap">
+            <span class="SubHeads"><a id="BnPro">B. The Prophets</a></span>
           </p>
         </td>
       </tr>
@@ -2131,6 +2238,14 @@
       </tr>
 
       <tr>
+        <td colspan=8>
+          <p class="TableGap">
+            <span class="SubHeads"><a id="CnWri">C. The Writings</a></span>
+          </p>
+        </td>
+      </tr>
+
+      <tr>
         <td class="TabEntry">
           <p class="TableGap">
             <a href="Cnnn-Wri/C901-Psa.pdf" title="The Psalms">
@@ -2978,7 +3093,7 @@
           <p style='margin-top:12.0pt;margin-right:0cm; margin-bottom:0cm; margin-left:35pt; margin-bottom:.0001pt;
              text-align:left;  line-height:25.0pt; direction:ltr; unicode-bidi:embed'>
             <span style='font-size:23.0pt; font-family:"Century Schoolbook L",serif;font-variant:small-caps''>
-              <b>The New Testament</b></span>
+              <b><a id="Table2">The New Testament</a></b></span>
           </p>
         </td>
       </tr>
@@ -3041,31 +3156,39 @@
           </p>
         </td>
       </tr>
+
+      <tr>
+        <td colspan=6>
+          <p class="TableGap">
+            <span class="SubHeads"><a id="MnSyn">A. Synoptic Gospels &amp; Acts</a></span>
+          </p>
+        </td>
+      </tr>
         
       <tr>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap">
+          <p class="TableMid">
             <a href="Mnnn-Syn/M901-Mth.pdf" title="The Gospel According to Matthew">
               <span class="TheoBold">The Gospel According to Matthew</span>
             </a>
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap">
+          <p class="TableMid">
             <a href="Mnnn-Syn/M101-Mth.docx" title="The Gospel According to Matthew (Gk)">
               <span class="GNTentry">&#922;&#945;&#964;&#945; &#924;&#945;&#952;&#952;&#945;&#953;&#959;&#957;</span>
             </a>
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap">
+          <p class="TableMid">
             <a href="Mnnn-Syn/M401-Mth.docx" title="The Gospel According to Matthew (Vg)">
               <span class="VLGentry">Evangelium secundum Matth&aelig;um</span>
             </a>
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap" style="line-height:12.0pt">
+          <p class="TableMid" style="line-height:12.0pt">
             <a href="Mnnn-Syn/M701-Mth.docx" title="The Gospel According to Matthew">
               <span class="COPsmall">&#11425;&#11401;&#11433;&#11393;&#11397;&#11397;&#11401;&#11415;&#11411;&#11423;&#11419;
                                      &#11419;&#11413;&#11393;&#11431;&#11393; &#11417;&#11393;&#11409;&#11409;&#11393;&#11411;&#11423;&#11429;
@@ -3074,14 +3197,14 @@
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap">
+          <p class="TableMid">
             <a href="Mnnn-Syn/M601-Mth.docx" title="The Holy Gospel from Matthew">
               <span class="SLVentry">&#1150; &#1052;&#1072;&#1090;&#1139;&#1077;&#769;&#1072;</span>
             </a>
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap">
+          <p class="TableMid">
             <a href="Mnnn-Syn/M301-Mth.docx" title="The Good News According to Matthew (WEB)">
                <span class="WEBentry">Matthew</span>
             </a>
@@ -3235,15 +3358,23 @@
       </tr>
 
       <tr>
+        <td colspan=6>
+          <p class="TableGap">
+            <span class="SubHeads"><a id="NnPau">B. The Letters of St Paul</a></span>
+          </p>
+        </td>
+      </tr>
+
+      <tr>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap" style="line-height:12.0pt">
+          <p class="TableMid" style="line-height:12.0pt">
             <a href="Nnnn-Pau/N901-1Th.pdf" title="Paul's First Letter to the Thessalonians">
               <span class="TheoBold">Paul&rsquo;s 1<sup>st</sup> Letter to the Thessalonians</span>
             </a>
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap" style="line-height:12.0pt">
+          <p class="TableMid" style="line-height:12.0pt">
             <a href="Nnnn-Pau/N101-1Th.docx" title="First Thessalonians (Gk)">
               <span class="GNTentry">&#928;&#961;&#959;&#963; 
                 &#920;&#949;&#963;&#963;&#945;&#955;&#959;&#957;&#953;&#954;&#949;&#953;&#962; &#913;&#884;</span>
@@ -3251,14 +3382,14 @@
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap" style="line-height:12.0pt">
+          <p class="TableMid" style="line-height:12.0pt">
             <a href="Nnnn-Pau/N401-1Th.docx" title="First Thessalonians (Vg)">
               <span class="VLGentry">Pauli ad Thessalonicenses I</span>
             </a>
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap" style="line-height:12.0pt">
+          <p class="TableMid" style="line-height:12.0pt">
             <a href="Nnnn-Pau/N701-1Th.docx" title="First Epistle to the Thessalonians">
               <span class="COPsmall">&#11431;&#11401; &#11425;&#11427;&#11423;&#11429;<br/>
                                      &#11409;&#11401;&#11429;&#11429;&#11393;&#11415;&#11423;&#11419;&#11411;&#11413;&#11401;&#11411;&#11429;
@@ -3268,7 +3399,7 @@
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap" style="line-height:12.0pt">
+          <p class="TableMid" style="line-height:12.0pt">
             <a href="Nnnn-Pau/N601-1Th.docx" title="First Epistle to the Thessalonians">
               <span class="SLVentry">&#1057;&#1086;&#1083;&#42571;&#769;&#1085;&#1127;&#1085;&#1121;&#1084;&#1098;
                                      &#1072;&#1155;
@@ -3277,7 +3408,7 @@
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap" style="line-height:12.0pt">
+          <p class="TableMid" style="line-height:12.0pt">
             <a href="Nnnn-Pau/N301-1Th.docx" title="Paul's First Letter to the Thessalonians (WEB)">
               <span class="WEBentry">1 Thessalonians</span>
             </a>
@@ -3863,29 +3994,37 @@
       </tr>
 
       <tr>
-        <td class="TabEntry">
+        <td colspan=6>
           <p class="TableGap">
+            <span class="SubHeads"><a id="OnEpi">C. Other/Catholic Letters</a></span>
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="TabEntry">
+          <p class="TableMid">
             <a href="Onnn-Epi/O901-Heb.pdf" title="The Letter to the Hebrews">
               <span class="TheoBold">The Letter to the Hebrews</span>
             </a>
           </p>
         </td>
         <td class="TabEntry">
-          <p class="TableGap">
+          <p class="TableMid">
             <a href="Onnn-Epi/O101-Heb.docx" title="The Letter to the Hebrews (Gk)">
               <span class="GNTentry">&#928;&#961;&#959;&#963; &#917;&#946;&#961;&#945;&#953;&#959;&#965;&#962;</span>
             </a>
           </p>
         </td>
         <td class="TabEntry">
-          <p class="TableGap">
+          <p class="TableMid">
             <a href="Onnn-Epi/O401-Heb.docx" title="The Letter to the Hebrews (Vg)">
               <span class="VLGentry">Pauli ad Hebr&aelig;os</span>
             </a>
           </p>
         </td>
         <td class="TabEntry">
-          <p class="TableGap">
+          <p class="TableMid">
             <a href="Onnn-Epi/O701-Heb.docx" title="Epistle to The Hebrews">
               <span class="COPsmall">&#11431;&#11401; &#11425;&#11427;&#11423;&#11429;
                                      &#1001;&#11401;&#11395;&#11427;&#11393;&#11411;&#11423;&#11433;&#11429;
@@ -3894,14 +4033,14 @@
           </p>
         </td>
         <td class="TabEntry">
-          <p class="TableGap">
+          <p class="TableMid">
             <a href="Onnn-Epi/O601-Heb.docx" title="Epistle to the Hebrews">
               <span class="SLVentry">&#1028;&#1158;&#1074;&#1088;&#1077;&#769;&#1108;&#1084;&#1098;</span>
             </a>
           </p>
         </td>
         <td class="TabEntry">
-          <p class="TableGap">
+          <p class="TableMid">
             <a href="Onnn-Epi/O301-Heb.docx" title="The Letter to the Hebrews (WEB)">
               <span class="WEBentry">Hebrews</span>
             </a>
@@ -4098,8 +4237,16 @@
       </tr>
 
       <tr>
-        <td class="TabEntry" style="vertical-align:middle">
+        <td colspan=6>
           <p class="TableGap">
+            <span class="SubHeads"><a id="PnJhn">D. The Johannine Works</a></span>
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="TabEntry" style="vertical-align:middle">
+          <p class="TableMid">
             <a href="Pnnn-Jhn/P901-Jhn.pdf" title="The Gospel According to John">
               <span class="TheoBold">The Gospel According to John</span>
             </a>
@@ -4108,21 +4255,21 @@
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap">
+          <p class="TableMid">
             <a href="Pnnn-Jhn/P101-Jhn.docx" title="The Gospel According to John (Gk)">
               <span class="GNTentry">&#922;&#945;&#964;&#945; &#921;&#969;&#945;&#957;&#957;&#951;&#957;</span>
             </a>
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap">
+          <p class="TableMid">
             <a href="Pnnn-Jhn/P401-Jhn.docx" title="The Gospel According to John (Vg)">
               <span class="VLGentry">Evangelium secundum Joannem</span>
             </a>
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap" style="line-height:12.0pt">
+          <p class="TableMid" style="line-height:12.0pt">
             <a href="Pnnn-Jhn/P701-Jhn.docx" title="The Gospel according to John">
               <span class="COPsmall">&#11425;&#11401;&#11433;&#11393;&#11397;&#11397;&#11401;&#11415;&#11411;&#11423;&#11419;
                                      &#11419;&#11413;&#11393;&#11431;&#11393;
@@ -4132,14 +4279,14 @@
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap">
+          <p class="TableMid">
             <a href="Pnnn-Jhn/P601-Jhn.docx" title="The Holy Gospel from John">
               <span class="SLVentry">&#1150; &#1030;&#1158;&#1121;&#1072;&#769;&#1085;&#1085;&#1072;</span>
             </a>
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap">
+          <p class="TableMid">
             <a href="Pnnn-Jhn/P301-Jhn.docx" title="The Good News According to John (WEB)">
               <span class="WEBentry">John</span>
             </a>
@@ -4371,7 +4518,7 @@
           <p style='margin-top:12.0pt;margin-right:0cm; margin-bottom:0cm; margin-left:14.2pt; margin-bottom:.0001pt;
             text-align:center;  line-height:25.0pt; direction:ltr; unicode-bidi:embed'>
             <span style='font-size:23.0pt; font-family:"Century Schoolbook L",serif;font-variant:small-caps'>
-              <b>OT Deuterocanon/Metacanon</b> (&amp; Related Apocrypha)
+              <b><a id="Table3">OT Deuterocanon/Metacanon</a></b> (&amp; Related Apocrypha)
             </span>
           </p>
         </td>
@@ -4437,7 +4584,7 @@
       <tr>
         <td colspan=6>
           <p class="TableGap">
-            <span class="SubHeads">Wisdom/Poetry Apocrypha</span>
+            <span class="SubHeads"><a id="DnApo">Wisdom/Poetry Apocrypha</a></span>
           </p>
         </td>
       </tr>
@@ -4780,7 +4927,7 @@
       <tr>
         <td colspan=6>
           <p class="TableGap">
-            <span class="SubHeads">The Books of the Maccabees</span>
+            <span class="SubHeads"><a id="EnMac">The Books of the Maccabees</a></span>
           </p>
         </td>
       </tr>
@@ -5021,7 +5168,7 @@
       <tr>
         <td colspan=6>
           <p class="TableGap">
-            <span class="SubHeads">The &lsquo;Baruch&rsquo; Books</span>
+            <span class="SubHeads"><a id="FnBar">The &lsquo;Baruch&rsquo; Books</a></span>
           </p>
         </td>
       </tr>
@@ -5234,7 +5381,7 @@
       <tr>
         <td colspan=6>
           <p class="TableGap">
-            <span class="SubHeads">The &lsquo;Esdras&rsquo; Books</span>
+            <span class="SubHeads"><a id="GnEsd">The &lsquo;Esdras&rsquo; Books</a></span>
           </p>
         </td>
       </tr>
@@ -5487,7 +5634,7 @@
       <tr>
         <td colspan=6>
           <p class="TableGap">
-            <span class="SubHeads">Ethiopic &lsquo;Broad Canon&rsquo; (and Associated Books)</span>
+            <span class="SubHeads"><a id="HnPpe">Ethiopic &lsquo;Broad Canon&rsquo; (and Associated Books)</a></span>
           </p>
         </td>
       </tr>
@@ -5825,7 +5972,7 @@
           <p style='margin-top:12.0pt;margin-right:0cm; margin-bottom:0cm; margin-left:0cm; margin-bottom:.0001pt;
             text-align:center;  line-height:25.0pt; direction:ltr; unicode-bidi:embed'>
             <span style='font-size:23.0pt; font-family:"Century Schoolbook L",serif;font-variant:small-caps'>
-              <b>Non-Canonical Early Christian Writings</b>
+              <b><a id="Table4">Non-Canonical Early Christian Writings</a></b>
             </span>
             <!--
             <br/>
@@ -5864,7 +6011,7 @@
 
       <tr>
         <td class="TabEntry" colspan=5>
-          <p class="TableGap">
+          <p class="TableGap"><a id="QnFth"> </a> 
             <a href="Ynnn-Src/Y204-Fth.pdf" title="Notes on the source texts for the Apostolic Fathers">
               <span class="SubHeads">Apostolic Fathers</span>
             </a>
@@ -6592,30 +6739,30 @@
       <tr>
         <td class="TabEntry" colspan=5>
           <p class="TableGap">
-              <span class="SubHeads">Ethiopic &lsquo;Broad Canon&rsquo;</span>
+              <span class="SubHeads"><a id="RnEbc">Ethiopic &lsquo;Broad Canon&rsquo;</a></span>
           </p>
         </td>
       </tr>
 
       <tr>
         <td class="TabEntry">
-          <p class="TableGap">
+          <p class="TableMid">
             <span class="TheoBold" style="color:olive">Sirate Tsion</span>
             <span class="TheoMins" style="color:olive">(S&#0477;rat&#0228; &#0350;iyon)</span>
           </p>
         </td>
         <td colspan="2" class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap">
+          <p class="TableMid">
             &nbsp;&nbsp;
           </p>
         </td>
         <td class="TabEntry">
-          <p class="TableGap">
+          <p class="TableMid">
             <span class="NCGentry" style="color: orange">Ge'ez Text</span>
           </p>
         </td>
         <td class="TabEntry">
-          <p class="TableGap">
+          <p class="TableMid">
             <span class="WEBentry" style="color:gray">The Order of Zion</span>
           </p>
         </td>
@@ -6804,7 +6951,7 @@
       <tr>
         <td class="TabEntry" colspan=5>
           <p class="TableGap">
-            <span class="SubHeads">Apocryphal (<i>and Gnostic</i>) Revelations and Acts</span>
+            <span class="SubHeads"><a id="SnRaa">Apocryphal (<i>and Gnostic</i>) Revelations and Acts</a></span>
           </p>
         </td>
       </tr>
@@ -7350,7 +7497,7 @@
       <tr>
         <td class="TabEntry" colspan=5>
           <p class="TableGap">
-              <span class="SubHeads">Coptic (<i>Gnostic</i>) Metalogos</span>
+              <span class="SubHeads"><a id="TnCml">Coptic (<i>Gnostic</i>) Metalogos</a></span>
           </p>
         </td>
       </tr>
@@ -7520,33 +7667,37 @@
       <tr>
         <td class="TabEntry" colspan=5>
           <p class="TableGap">
-              <span class="SubHeads">Works of Dubious Provenance</span>
+              <span class="SubHeads"><a id="WnDub">Texts of Dubious Provenance</a></span>
           </p>
         </td>
       </tr>
 
       <tr>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap" style="line-height:12.0pt">
+          <p class="TableMid" style="line-height:12.0pt">
             <a href="Wnnn-Dub/W901-SMk.pdf" title="Secret Gospel of Mark">
               <span class="TheoNorm">The Secret Gospel of Mark</span>
             </a>
           </p>
         </td>
         <td colspan="2" class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap" style="line-height:12.0pt">
+          <p class="TableMid" style="line-height:12.0pt">
             <a href="Wnnn-Dub/W101-SMk.docx" title="Secret Gospel of Mark">
               <span class="NCGscaps">The 'Complete' Greek Letter</span>
             </a>
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap" style="line-height:12.0pt">
-            &nbsp;
+          <p class="TableMid" style="line-height:12.0pt">
+          <p class="TableMid" style="line-height:12.0pt">
+            <a href="Wnnn-Dub/W701-SMk.docx" title="Morton Smith's Photographs'">
+              <span class="WEBentry"><i>Photographic &lsquo;Evidence&rsquo;</i></span>
+            </a>
+          </p>
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
-          <p class="TableGap" style="line-height:12.0pt">
+          <p class="TableMid" style="line-height:12.0pt">
             <a href="Wnnn-Dub/W301-SMk.docx" title="Morton Smith's' Translation">
               <span class="WEBentry">Secret Gospel of Mark</span>
               <br />
@@ -7555,30 +7706,41 @@
           </p>
         </td>
       </tr>
-<!--
+
       <tr>
         <td class="TabEntry"style="vertical-align:middle">
           <p class="TableMid">
-            <span class="TheoNorm" style="color:olive">The Letters of Jesus and Abgar</span>
+            <a href="Wnnn-Dub/W902-Lja.pdf" title="The Letter of Jesus and Abgarus">
+              <span class="TheoNorm">The Letters of Jesus and Abgarus</span>
+            </a>
           </p>
         </td>
         <td colspan="2" class="TabEntry" style="vertical-align:middle">
           <p class="TableMid" style="line-height:12.0pt">
-            &nbsp;
+            <a href="Wnnn-Dub/W102-Lja.docx" title="Transcript of Eusebius' Greek translation">
+              <span class="NCGscaps">&#7960;&#954;&#954;&#955;&#951;&#963;&#953;&#945;&#963;&#964;&#953;&#954;&#8052;
+              &#7993;&#963;&#964;&#959;&#961;&#943;&#945;</span><span class="WEBentry"> <i>(Eusebius)</i></span>
+            </a>
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
           <p class="TableMid" style="line-height:12.0pt">
-            &nbsp;
+            <a href="Wnnn-Dub/W702-Lja.docx" title="Provisional Syriac Text">
+              <span class="WEBentry"><i>Syriac Text</i></span>
+            </a>
           </p>
         </td>
         <td class="TabEntry" style="vertical-align:middle">
           <p class="TableMid" style="line-height:12.0pt">
-            &nbsp;
+            <a href="Wnnn-Dub/W302-Lja.docx" title="M.R. James' 1924 'Translation">
+              <span class="WEBentry">Letters of Christ &amp; Abgarus</span>
+              <br />
+              <span class="WEBsmall"><i>(M.R. James, 1924)</i></span>
+            </a>
           </p>
         </td>
       </tr>
-      
+<!--      
       <tr>
         <td class="TabEntry"style="vertical-align:middle">
           <p class="TableMid">
@@ -7774,7 +7936,7 @@
           <p style='margin-top:12.0pt;margin-right:0cm; margin-bottom:0cm; margin-left:0cm; margin-bottom:.0001pt;
             text-align:center;  line-height:25.0pt; direction:ltr; unicode-bidi:embed'>
             <span style='font-size:23.0pt; font-family:"Century Schoolbook L",serif;font-variant:small-caps'>
-                <b>&lsquo;Old Testament&rsquo; Pseudepigrapha</b>
+                <b><a id="Table5">&lsquo;Old Testament&rsquo; Pseudepigrapha</a></b>
             </span>
           </p>
         </td>
@@ -7826,7 +7988,7 @@
       <tr>
         <td class="TabEntry" colspan="6">
           <p class="TableGap">
-              <span class="SubHeads">A. Testaments</span>
+              <span class="SubHeads"><a id="InApe">A. Testaments</a></span>
           </p>
         </td>
       </tr>
@@ -8118,7 +8280,7 @@
         </td>
           <td class="TabEntry">
             <p class="TableMid">
-              <a href="Innn-Ape/I207-TSo.docx" title="The Testamant of Solomon">
+              <a href="Innn-Ape/I207-TSo.docx" title="The Testament of Solomon">
                 <span class="NCGentry">&#916;&#953;&#945;&#952;&#8053;&#954;&#951;
                                        &#931;&#959;&#955;&#959;&#956;&#969;&#957;&#953;&#954;&#942;</span>
               </a>
@@ -8146,8 +8308,12 @@
           </p>
         </td>      
         <td class="TabEntry">
-          <p class="TableMid">
-            <span class="WEBentry" style="color: gray"><i>The Testament of Solomon</i></span>
+          <p class="TableMid" style="line-height:12.0pt">
+            <a href="Innn-Ape/I307-TSo.docx" title="FC Conybeare's 1898 Translation'">
+              <span class="WEBentry"><i>The Testament of Solomon</i></span>
+              <br />
+              <span class="WEBsmall"><i>(F.C. Conybeare, 1898)</i></span>
+            </a>
           </p>
         </td>
       </tr>
@@ -8195,14 +8361,14 @@
               <br />
               <span class="WEBsmall"><i>(M.R. James, 1897)</i></span>
             </a>
-            </p>
+          </p>
         </td>
       </tr>          
 
       <tr>
         <td class="TabEntry" colspan="6">
           <p class="TableGap">
-              <span class="SubHeads">B. Apocalypses</span>
+            <span class="SubHeads"><a id="JnBpe">B. Apocalypses</a></span>
           </p>
         </td>
       </tr>
@@ -8464,7 +8630,7 @@
       <tr>
         <td class="TabEntry" colspan="6">
           <p class="TableGap">
-              <span class="SubHeads">C. Histories &amp; Narratives</span>
+            <span class="SubHeads"><a id="KnCpe">C. Histories &amp; Narratives</a></span>
           </p>
         </td>
       </tr>
@@ -8694,7 +8860,7 @@
       <tr>
         <td class="TabEntry" colspan="6">
           <p class="TableGap">
-            <span class="SubHeads">Unclassified/Provisional</span>
+            <span class="SubHeads"><a id="XnUnc">E. Unclassified/Provisional</a></span>
           </p>
         </td>
       </tr>
